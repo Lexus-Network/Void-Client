@@ -5,7 +5,7 @@ public:
 	Watermark(std::string cat) : Module(cat, "Watermark", "Display watermark of client", 0x07, true) {};
 
 	void OnFrameRender(RenderUtils* ctx) override {
-		auto vText1 = TextHolder("ClientBase by hydraontopp"); //"ClientBase by hydraontopp"
+		auto vText1 = TextHolder("void client"); //"rgb"
 
 		//RGB
 		_RGB rainbow;
